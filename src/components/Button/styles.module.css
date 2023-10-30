@@ -1,0 +1,45 @@
+.s {
+    font-size: 10pt;
+}
+
+.m {
+    font-size: 12pt;
+}
+
+.l {
+    font-size: 14pt;
+}
+
+.accent {
+    padding: 0;
+    background-color: orange;
+    border-radius: 4px;
+    border: 0px;
+    color:crimson;
+    
+}
+
+.base {
+    padding: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: dimgray;
+    color: whitesmoke;
+    transition: opacity 0.2s;
+}
+
+.base:hover {
+    opacity: 0.5;
+}
+
+.base:disabled {
+    opacity: 0.3;
+    background-color: gray;
+    color: white;
+    cursor: default;
+}
+
+.base.dark {
+    background-color: black;
+    color: white;
+}
