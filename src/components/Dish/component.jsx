@@ -2,8 +2,7 @@ import { useState } from 'react';
 import { Button } from '../Button/component'
 import { useSelector } from 'react-redux';
 
-export const Dish = ({ dishId }) => {
-    const dish = useSelector((state) => state.dish.entities[dishId]);
+export const Dish = ({ dish }) => {
     const [amount, setAmount] = useState(0);
     return(
         <div>
