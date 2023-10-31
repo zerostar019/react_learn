@@ -41,7 +41,7 @@ export const restaurants = [
       "dishes": ["49t0hipb05y", "405h8y033gh", "056trj30hri04"],
       "comments": ["2874yt3uhirewgj", "823940toyifkds"]
     }
-  ]
+  ];
 
 
 export const comments = [
@@ -129,7 +129,7 @@ export const comments = [
     "text": "Biscuits are always fluffy and delicious.",
     "rating": 4
   }
-]
+];
 
 
 export const users = [
@@ -189,7 +189,7 @@ export const users = [
     "userId": "5094pthjghj",
     "name": "Hannah"
   }
-]
+];
 
 export const dishes = [
   {
@@ -280,4 +280,4 @@ export const dishes = [
     "dishId": "056trj30hri04",
     "name": "Cake Pops"
   }
-]
+];

@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { dishes } from "../../../../mocks/mock";
+import { dishes } from "../../../../../server_api/data/mock";
 
 const initialState = {
     entities: dishes.reduce((acc, dish) => {

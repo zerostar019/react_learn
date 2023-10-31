@@ -6,8 +6,7 @@ import { Modal } from '../Modal/Modal.jsx';
 import styles from './styles.module.css';
 import { useSelector } from "react-redux";
 
-export const Restaurant = ({ restarauntId }) => {
-    const restaraunt = useSelector((state) => state.restaraunt.entities[restarauntId]);
+export const Restaurant = ({ restaraunt }) => {
     const [isModalActive, setIsModalActive] = useState(false);
     return (
         <div>

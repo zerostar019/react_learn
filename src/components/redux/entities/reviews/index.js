@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { comments } from "../../../../mocks/mock";
+import { comments } from "../../../../../server_api/data/mock";
 
 const initialState = {
     entities: comments.reduce((acc, comment) => {

@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { users } from "../../../../mocks/mock";
+import { users } from "../../../../../server_api/data/mock";
 
 const initialState = {
     entities: users.reduce((acc, user) => {
